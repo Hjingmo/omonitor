@@ -1,0 +1,57 @@
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav" id="side-menu">
+            <li class="nav-header">
+                <div class="dropdown profile-element">
+                    <span>
+                        <img alt="image" class="img-circle" width="48" height="48" src="/static/img/root.png" />
+                    </span>
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                        <span class="clear">
+                            <span class="block m-t-xs">
+                                <strong class="font-bold">{{.UserName}}  <span style="color: #8095a8">技术部</span></strong>
+                            </span>
+                            <span class="text-muted text-xs block">
+                                {{.user_name}} <b class="caret"></b>
+                            </span>
+                        </span>
+                    </a>
+                    <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                        <li><a value="#" class="iframe_user">个人信息</a></li>
+                        <li><a href="#">修改信息</a></li>
+                        <li><a href="#">切换角色</a></li>
+
+                        <li class="divider"></li>
+                        <li><a href="/logout">注销</a></li>
+                    </ul>
+                </div>
+                <div class="logo-element">
+                    JS+
+                </div>
+            </li>
+			<li id="users">
+                <a href="#"><i class="fa fa-group"></i> <span class="nav-label">用户管理</span><span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li class="userlist"><a href="/user/manage">用户列表</a></li>
+					<li class="permission"><a href="/user/permission">权限列表</a></li>
+                </ul>
+            </li>
+			<li id="alarmset">
+                <a href="#"><i class="fa fa-gears"></i> <span class="nav-label">报警设置</span><span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+					<li class="alarmgrp"><a href="/alarm/alarmgroup">报警联系人</a></li>
+					<li class="alarmkafka"><a href="/alarm/kafkaset">Kafka设置</a></li>
+                </ul>
+            </li>
+			<li id="kafka">
+                <a><i class="fa fa-inbox"></i> <span class="nav-label">Kafka监控</span><span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+				    <li class="kafka1"><a href="/kafka/consumers?env=1">测试</a></li>
+                </ul>
+            </li>
+            <li id="contact">
+                <a href="#"><i class="fa fa-database"></i> <span class="nav-label">联系管理员</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
