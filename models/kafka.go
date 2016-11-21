@@ -3,10 +3,11 @@ package models
 import (
 	"encoding/json"
 	"fmt"
-	"omonitor/utils"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/yangji168/omonitor/utils"
 
 	"github.com/Shopify/sarama"
 	"github.com/astaxie/beego"

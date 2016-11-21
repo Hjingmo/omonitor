@@ -3,8 +3,9 @@ package main
 import (
 	"html/template"
 	"net/http"
-	_ "omonitor/routers"
-	_ "omonitor/tasks"
+
+	_ "github.com/yangji168/omonitor/routers"
+	_ "github.com/yangji168/omonitor/tasks"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/context"

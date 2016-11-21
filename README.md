@@ -10,3 +10,6 @@
 可根据消费组设置报警
 
 可设定每个topic的告警阀值
+
+
+参考KafkaOffsetMonitor开发，增加报警功能。

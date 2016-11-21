@@ -2,9 +2,10 @@ package models
 
 import (
 	"fmt"
-	"omonitor/utils"
 	"strconv"
 	"time"
+
+	"github.com/yangji168/omonitor/utils"
 
 	"github.com/astaxie/beego/orm"
 )

@@ -1,9 +1,10 @@
 package controllers
 
 import (
-	"omonitor/models"
 	"strconv"
 	"strings"
+
+	"github.com/yangji168/omonitor/models"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/context"

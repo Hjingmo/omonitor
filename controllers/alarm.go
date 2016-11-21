@@ -2,8 +2,9 @@ package controllers
 
 import (
 	"fmt"
-	"omonitor/models"
 	"strings"
+
+	"github.com/yangji168/omonitor/models"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/utils/pagination"

@@ -1,7 +1,7 @@
 package tasks
 
 import (
-	"omonitor/models"
+	"github.com/yangji168/omonitor/models"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/toolbox"

@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"omonitor/controllers"
+	"github.com/yangji168/omonitor/controllers"
 
 	"github.com/astaxie/beego"
 )
